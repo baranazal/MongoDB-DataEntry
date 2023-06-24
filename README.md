@@ -5,3 +5,18 @@
    </p>
 
 A user-friendly data entry tool for submitting data effortlessly. Enter data, extract as images or Excel sheets. Efficient and convenient.
+
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Installing
+
+Clone the repository to your local machine:
+
+```
+git clone https://github.com/baranazal/CURRENCY-CONVERTER-BOT.git
+```
+
+Or you can download it manually, make sure you put the frontend and the backend folders together in the same directory.
