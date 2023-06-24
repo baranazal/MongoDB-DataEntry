@@ -76,3 +76,8 @@ This what the DataTable may look like:
 <a target="_blank"><img src = "https://github.com/baranazal/MongoDB-DataEntry/assets/72268356/b2da11b7-9b4a-426e-8d43-49ca311fd229" alt="logo"></a>
    </p>
 
+
+## Contributing
+
+If you would like to contribute to this project, please create a fork and submit a pull request with your changes.
+
