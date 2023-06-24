@@ -32,6 +32,7 @@ Or you can download it manually, make sure you put the frontend and the backend 
 6. Finally, Copy the connection string at step 2 and replace it by the MONGO_URI in ` backend/config/config.env ` and hit save.
 
 The username and the password is the ones you can find in step 4 
+it should look like this : ` MONGO_URI=mongodb+srv://yourUserName:YourPWD@badataentry.wc7jst.mongodb.net/form `
 
 
 
@@ -39,14 +40,7 @@ Now you can start running the project.
 
 So, Lets say you saved both frontend and backend files in Directory named DataEntry 
 
-you should do the following in two terminals
-
-```
-cd DataEntry/frontend
-```
-in the first one and 
-
-```
-cd DataEntry/frontend
-```
+You should do the following in two terminals the first one ` cd DataEntry/frontend ` and ` cd DataEntry/backend ` in the second one
+Then, you need to ` npm i ` in both terminals 
+After that, you may run ` npm run start ` on both terminals.
 
