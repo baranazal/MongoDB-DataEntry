@@ -44,3 +44,28 @@ You should do the following in two terminals the first one ` cd DataEntry/fronte
 Then, you need to ` npm i ` in both terminals 
 After that, you may run ` npm run start ` on both terminals.
 
+
+
+## Usage
+
+This what the Form may look like: 
+
+<p align="center">
+<a target="_blank"><img src = "https://github.com/baranazal/MongoDB-DataEntry/assets/72268356/4a7b0a74-1632-4816-843a-662083c10e80" alt="logo"></a>
+   </p>
+
+After Filling the form you can click on DataTable Tab to see all the submissions there.
+
+
+### Explain the Table 
+
+Every value you have submited has it's own column you can do some functions on the data such as :
+
+1. ` Delete Selected ` Which will delete the selected incidents.
+2. ` Edit Selected ` Which will edit the incident you selected " only one a time " .
+3. ` Export Sheet ` Which will export the selected incidents as excel sheet " it could be one or more " .
+4. ` Export Image ` Which will export the selected incidents as images  " it could be one or more " .
+     Note : you need to allow pop-ups to avoid facing errors on this function.
+5. ` Export All Sheet ` Which will export the whole database as excel sheet.
+6. ` Export All Image ` Which will export the whole database as images.
+
