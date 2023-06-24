@@ -63,8 +63,8 @@ Every value you have submited has it's own column you can do some functions on t
 
 1. ` Delete Selected ` Which will delete the selected incidents.
 2. ` Edit Selected ` Which will edit the incident you selected " only one a time " .
-3. ` Export Sheet ` Which will export the selected incidents as excel sheet " it could be one or more " . \n
-4. ` Export Image ` Which will export the selected incidents as images  " it could be one or more " .
+3. ` Export Sheet ` Which will export the selected incidents as excel sheet " it could be one or more " .
+4. ` Export Image ` Which will export the selected incidents as images  " it could be one or more " . < br />
      Note : you need to allow pop-ups to avoid facing errors on this function.
 5. ` Export All Sheet ` Which will export the whole database as excel sheet.
 6. ` Export All Image ` Which will export the whole database as images.
