@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/baranazal/CURRENCY-CONVERTER-BOT.git
+git clone https://github.com/baranazal/MongoDB-DataEntry.git
 ```
 
 Or you can download it manually, make sure you put the frontend and the backend folders together in the same directory.
