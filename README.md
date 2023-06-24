@@ -69,3 +69,10 @@ Every value you have submited has it's own column you can do some functions on t
 5. ` Export All Sheet ` Which will export the whole database as excel sheet.
 6. ` Export All Image ` Which will export the whole database as images.
 
+
+This what the DataTable may look like: 
+
+<p align="center">
+<a target="_blank"><img src = "https://github.com/baranazal/MongoDB-DataEntry/assets/72268356/b2da11b7-9b4a-426e-8d43-49ca311fd229" alt="logo"></a>
+   </p>
+
