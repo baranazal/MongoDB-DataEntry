@@ -1,83 +1,70 @@
-# MongoDB DataEntry
+# Getting Started with Create React App
 
-<p align="center">
-<a target="_blank"><img src = "https://github.com/baranazal/MongoDB-DataEntry/assets/72268356/fb83ccda-26d8-44a4-9e90-af4a9d9090ef" alt="logo"></a>
-   </p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A user-friendly data entry tool for submitting data effortlessly. Enter data, extract as images or Excel sheets. Efficient and convenient.
+## Available Scripts
 
+In the project directory, you can run:
 
-## Getting Started
+### `npm start`
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Installing
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Clone the repository to your local machine:
+### `npm test`
 
-```
-git clone https://github.com/baranazal/MongoDB-DataEntry.git
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Or you can download it manually, make sure you put the frontend and the backend folders together in the same directory.
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Running the script.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. First, you need to make an account at https://www.mongodb.com/.
-2. Then, you should create a new project.
-3. After that, you have to deploy your database "you can use ` M0 shared cluster ` its FREE and works perfect for small-medium projects".
-4. Later on, after hit the Create Button You can continue setting up your database by creating the user 
-5. Now, you database is ready you need to press connect on the cluster and choose Compass.
-6. Finally, Copy the connection string at step 2 and replace it by the MONGO_URI in ` backend/config/config.env ` and hit save.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The username and the password is the ones you can find in step 4 
-it should look like this : ` MONGO_URI=mongodb+srv://yourUserName:YourPWD@badataentry.wc7jst.mongodb.net/form `
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Now you can start running the project.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-So, Lets say you saved both frontend and backend files in Directory named DataEntry 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-You should do the following in two terminals the first one ` cd DataEntry/frontend ` and ` cd DataEntry/backend ` in the second one
-Then, you need to ` npm i ` in both terminals 
-After that, you may run ` npm run start ` on both terminals.
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Usage
+### Code Splitting
 
-This what the Form may look like: 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-<p align="center">
-<a target="_blank"><img src = "https://github.com/baranazal/MongoDB-DataEntry/assets/72268356/4a7b0a74-1632-4816-843a-662083c10e80" alt="logo"></a>
-   </p>
+### Analyzing the Bundle Size
 
-After Filling the form you can click on DataTable Tab to see all the submissions there.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-### Explain the Table 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Every value you have submited has it's own column you can do some functions on the data such as :
+### Advanced Configuration
 
-1. ` Delete Selected ` Which will delete the selected incidents.
-2. ` Edit Selected ` Which will edit the incident you selected " only one a time " .
-3. ` Export Sheet ` Which will export the selected incidents as excel sheet " it could be one or more " .
-4. ` Export Image ` Which will export the selected incidents as images  " it could be one or more " . <br />
-     Note : you need to allow pop-ups to avoid facing errors on this function.
-5. ` Export All Sheet ` Which will export the whole database as excel sheet.
-6. ` Export All Image ` Which will export the whole database as images.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-This what the DataTable may look like: 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-<p align="center">
-<a target="_blank"><img src = "https://github.com/baranazal/MongoDB-DataEntry/assets/72268356/b2da11b7-9b4a-426e-8d43-49ca311fd229" alt="logo"></a>
-   </p>
+### `npm run build` fails to minify
 
-
-## Contributing
-
-If you would like to contribute to this project, please create a fork and submit a pull request with your changes.
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
