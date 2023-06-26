@@ -21,6 +21,8 @@ git clone https://github.com/baranazal/MongoDB-DataEntry-FRONTEND.git
 
 Or you can download it manually, make sure you put the frontend and the backend folders together in the same directory.
 
+Note: You will also need to visit ` https://github.com/baranazal/MongoDB-DataEntry-BACKEND ` to get the FrontEnd Package
+
 
 ### Running the script.
 
